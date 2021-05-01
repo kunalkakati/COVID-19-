@@ -1,0 +1,30 @@
+<%- include("header"); -%>
+
+<div class="result-info">
+    <p>Country</p>
+    <h2> <%= cntr %> <img class="flag" src=<%= src %> ></h2>
+</div>
+
+    <div class="result-info">
+        <p>Confrimed Case</p>
+        <h2> <%= cases %> </h2>
+    </div>
+    <div class="result-info">
+        <p>Recoverd</p>
+        <h2> <%= recover %> </h2>
+    </div>
+
+
+    <div class="result-info">
+        <p>Critical</p>
+        <h2> <%= critical %> </h2>
+    </div>
+    <div class="result-info">
+        <p>Deaths</p>
+        <h2> <%= death %> </h2>
+    </div>
+
+<p>last update: <%= time %></p>
+
+
+<%- include("footer"); -%>

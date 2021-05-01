@@ -1,0 +1,56 @@
+body{
+    padding: 3% 14%;
+}
+
+
+.header{
+    text-align: center;
+}
+
+.country_input[type="text"]{
+    margin: 25px 0 0 277px;
+    height: 30px;
+    width: 50%;
+    outline: none;
+}
+
+.country_input[type="submit"]{
+    margin-left: -59px;
+    border:0;
+    height: 33px;
+    background-color: blue;
+    color: #fff;
+}
+
+.footer{
+    position: fixed;
+    margin-top: 500px;
+    background-color: blue;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* Result_page */
+
+#result-page{
+    text-align: center;
+    
+}
+.result-info h2{
+   margin-top: -6px;
+}
+
+.result-info p {
+    font-weight: 600;
+    color: #456268;
+}
+
+.flag{
+    height: 20px;
+    width: 40px;
+}
