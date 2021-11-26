@@ -42,7 +42,6 @@ app.post("/", (req,res)=>{
             const updateTime = covid_data[0].lastUpdate;
             const icon = covid_data[0].code;
             const src = "http://purecatamphetamine.github.io/country-flag-icons/3x2/"+ icon + ".svg";
-            console.log(icon);
             res.render("result", {
                 cntr: country,
                 cases: cases,
